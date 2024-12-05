@@ -15,7 +15,7 @@ The most studied vertex algebras are the so called rational vertex algebras. The
 
 My work on vertex algebra module classification makes use of certain associative algebras, called Zhu algebras, which encode a lot of information about vertex algebra module theory. Zhu algebras are notoriously hard to work with in practice and I have developed methods which recast hard Zhu algebra questions into comparatively easier quetions in terms of the combinatorics of symmetric functions. Some representative publications in this line of research include:
 
-- Admissible level $$\mathfrak{osp}(1|2)$$ minimal models and their relaxed highest weight modules
+- Admissible level $$\mathfrak{osp}(1\vert 2)$$ minimal models and their relaxed highest weight modules
 - Superconformal minimal models and admissible Jack polynomials
 - Relaxed singular vectors, Jack symmetric functions and fractional level $$\mathfrak{sl}2$$ models
 - From Jack polynomials to minimal model spectra
@@ -24,7 +24,7 @@ My work on vertex algebra module classification makes use of certain associative
 Categories of modules over rational vertex algebras are so called modular tensor categories. Among many other things, this implies that the much celebrated Verlinde formula holds. This formula relates the fusion product of modules (a kind of tensor product) to an action of the modular group, $$\mathsf{SL}(2,\mathbb{Z})$$, on module characters. My work aims to generalise this Verlinde formula to logarithmic vertex algebras. Some representative publication in this line of research include:
 
 - Admissible-level $$\mathfrak{sl}(3)$$ minimal models
-- An admissible level $$\mathfrak{osp}(1|2)$$-model: modular transformations and the Verlinde formula
+- An admissible level $$\mathfrak{osp}(1\vert 2)$$-model: modular transformations and the Verlinde formula
 - On Regularised Quantum Dimensions of the Singlet Vertex Operator Algebra and False Theta Functions
 - The Verlinde formula in logarithmic CFT
 - Bosonic Ghosts at $$c=2$$ as a Logarithmic CFT
