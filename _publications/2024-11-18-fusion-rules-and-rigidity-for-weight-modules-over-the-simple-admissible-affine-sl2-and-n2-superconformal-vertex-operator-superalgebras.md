@@ -1,5 +1,5 @@
 ---
-title: "Fusion rules and rigidity for weight modules over the simple admissible affine $$\mathfrak{sl}(2)$$ and $$\mathfrak{N}=2$$ superconformal vertex operator superalgebras"
+title: "Fusion rules and rigidity for weight modules over the simple admissible affine sl2 and N=2 superconformal vertex operator superalgebras"
 collection: publications
 category: review
 permalink: /publication/2024-11-18-fusion-rules-and-rigidity-for-weight-modules-over-the-simple-admissible-affine-sl2-and-n2-superconformal-vertex-operator-superalgebras
