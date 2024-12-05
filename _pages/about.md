@@ -1,11 +1,21 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Simon Wood's personal webpage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+
+Welcome to my personal webpage
+=============================
+
+I am a Reader of Mathematics at Cardiff University's School of Mathematics, where I am a member of the Geometry, Algebra, Mathematical Physics & Topology (GAPT) group.
+
+My research focuses on symmetries in the laws of physics. Such symmetries are fundamental to our understanding of the laws nature (they have arguably been the driving force behind almost all advances in theoretical physics for well over 100 years) and are also a source of beautiful mathematics. Specifically, I mainly study the mathematics of 2 dimensional conformal quantum field theories and all their myriad connections to Lie theory, vertex operator algebras, representation theory, modular forms and modular tensor categories to name but a few. Please see the [Research Section](/research/) for more details.
+
+If you are a student who is interested in doing a summer project or a PhD with me, please see the Supervision Section.
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
