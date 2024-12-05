@@ -76,14 +76,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  review:
+    title: 'Under Review'
   books:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  review:
-    title: 'Under Review'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
