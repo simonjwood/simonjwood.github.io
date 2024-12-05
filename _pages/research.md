@@ -17,9 +17,9 @@ My work on vertex algebra module classification makes use of certain associative
 
 - Admissible level $$\mathfrak{osp}(1\vert 2)$$ minimal models and their relaxed highest weight modules
 - Superconformal minimal models and admissible Jack polynomials
-- Relaxed singular vectors, Jack symmetric functions and fractional level $$\mathfrak{sl}2$$ models
+- Relaxed singular vectors, Jack symmetric functions and fractional level $$\mathfrak{sl}(2)$$ models
 - From Jack polynomials to minimal model spectra
-- On the extended $$W$$-algebra of type $$\mathfrak{sl}2$$ at positive rational level
+- On the extended $$W$$-algebra of type $$\mathfrak{sl}(2)$$ at positive rational level
 
 Categories of modules over rational vertex algebras are so called modular tensor categories. Among many other things, this implies that the much celebrated Verlinde formula holds. This formula relates the fusion product of modules (a kind of tensor product) to an action of the modular group, $$\mathsf{SL}(2,\mathbb{Z})$$, on module characters. My work aims to generalise this Verlinde formula to logarithmic vertex algebras. Some representative publication in this line of research include:
 
@@ -35,7 +35,7 @@ Vertex algebras and their modules are infinite dimensional vector spaces (with m
 - Bosonic ghostbusting -- The bosonic ghost vertex algebra admits a logarithmic module category with rigid fusion
 - The tensor structure on the representation category of the $$\mathcal{W}_p$$ triplet algebra
 
-While categories of modules over vertex algebras will not be modular tensor categories, if the vertex algebra is not rational, they still admit many rich structures that generalise those of modular tensor categories. Recent work of mine shows that categories of modules over vertex algebras admit a duality structure called Grothendieck-Verdier duality. Exploring the implications of this duality structure is one of the main aims of a Humboldt Fellowship project that I am currently undertaking at Hamburg University.
+While categories of modules over vertex algebras will not be modular tensor categories, if the vertex algebra is not rational, they still admit many rich structures that generalise those of modular tensor categories. Recent work of mine shows that categories of modules over vertex algebras admit a duality structure called Grothendieck-Verdier duality. Exploring the implications of this duality structure was one of the main aims of a recent Humboldt Fellowship project that I undertook at Hamburg University.
 
 - Duality structures for module categories of vertex operator algebras and the Feigin Fuchs boson
 - Grothendieck-Verdier duality in categories of bimodules and weak module functors
