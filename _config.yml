@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "board_photo1.jpg"
   name             : "Simon Wood"
   pronouns         : # example: "she/her"  
   bio              : "Mathematician and physicist with an interest in all that connects these two fields."
