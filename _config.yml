@@ -78,12 +78,14 @@ author:
 publication_category:
   review:
     title: 'Under Review'
+  proceedings:
+    title: 'Conference Proceedings'
+  chapters:
+    title: 'Book Chapters'
   books:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Proceedings'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
