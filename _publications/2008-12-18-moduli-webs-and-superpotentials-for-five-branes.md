@@ -6,5 +6,5 @@ permalink: /publication/2008-12-18-moduli-webs-and-superpotentials-for-five-bran
 date: 2008-12-18
 venue: 'Journal of High Energy Physics'
 paperurl: 'https://doi.org/10.1088/1126-6708/2009/06/052'
-citation: 'Marco Baumgartl and Simon Wood JHEP06(2009)052.'
+citation: 'M. Baumgartl and S. Wood, JHEP 06, 052 (2009)'
 ---

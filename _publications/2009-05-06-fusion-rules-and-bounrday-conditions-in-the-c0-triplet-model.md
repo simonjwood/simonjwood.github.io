@@ -7,5 +7,5 @@ permalink: /publication/2009-05-06-fusion-rules-and-bounrday-conditions-in-the-c
 date: 2008-12-18
 venue: 'Journal of Physics A'
 paperurl: 'https://doi.org/10.1088/1751-8113/42/32/325403'
-citation: 'Matthias R. Gaberdiel, Ingo Runkel and Simon Wood J. Phys. A: Math. Theor. 42, 325403 (2009)'
+citation: 'M.R. Gaberdiel, I. Runkel and S. Wood, J. Phys. A 42, 325403 (2009)'
 ---
