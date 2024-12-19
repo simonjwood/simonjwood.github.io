@@ -1,5 +1,5 @@
 ---
-title: "Talk 1 on Relevant Topic in Your Field"
+title: "Logarithmic versus non-logarithmic CFT"
 collection: talks
 type: "Talk"
 permalink: /talks/2012-anu-logarithmic-versus-non-logarithmic-cft
