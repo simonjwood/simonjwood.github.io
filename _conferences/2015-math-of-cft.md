@@ -1,5 +1,5 @@
 ---
-title: "Lie algebras and representation theory"
+title: "The mathematics of conformal field theory"
 collection: conferences
 type: "Conference"
 permalink: /conferences/2015-math-of-cft
