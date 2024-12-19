@@ -11,6 +11,9 @@ main:
   - title: "Research"
     url : /research/
 
+  - title: "Supervision"
+    url : /supervision/
+
   - title: "Publications"
     url: /publications/
 

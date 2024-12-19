@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "Simon Wood's personal webpage"
+title: "Welcome to my personal webpage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-
-Welcome to my personal webpage
-=============================
 
 I am a Reader of Mathematics at Cardiff University's School of Mathematics, where I am a member of the [Geometry, Algebra, Mathematical Physics & Topology](https://www.cardiff.ac.uk/research/explore/research-units/geometry-algebra-mathematical-physics-and-topology) (GAPT) group.
 
