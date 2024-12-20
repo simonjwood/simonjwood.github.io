@@ -1,5 +1,5 @@
 ---
-title: "Bosonic Ghosts at c=2 as a Logarithmic CFT"
+title: "Bosonic Ghosts at $$c=2$$ as a Logarithmic CFT"
 collection: publications
 category: manuscripts
 permalink: /publication/2014-08-19-bosonic-ghosts-at-c2-as-a-logarithmic-cft
