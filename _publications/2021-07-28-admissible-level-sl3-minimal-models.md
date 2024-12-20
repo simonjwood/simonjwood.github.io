@@ -5,6 +5,8 @@ category: manuscripts
 permalink: /publication/2021-07-28-admissible-level-sl3-minimal-models
 date: 2021-07-28
 venue: 'Letters in Mathematical Physics'
+preprinturl: 'https://arxiv.org/abs/2107.13204'
 paperurl: 'https://doi.org/10.1007/s11005-022-01580-9'
 citation: 'K. Kawasetsu, D. Ridout and S. Wood, Lett. Math. Phys. 112, 96 (2022)'
+coauthors: 'K. Kawasetsu and D. Ridout'
 ---

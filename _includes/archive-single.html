@@ -40,19 +40,19 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+           {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
         {% elsif post.collection == 'publications' %}
 	  {% if post.category == 'review' %}
-	    <p>Posted on <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+	    Posted on <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
 	  {% else %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+            Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
 	  {% endif %}
         {% elsif post.collection == 'conferences' %}
-	  <p> <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+	   <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
 	{% elsif post.collection == 'awards' %}
-	  <p> <i>{{ post.funder }}</i>,  {{post.grantid}}, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+	   <i>{{ post.funder }}</i>,  {{post.grantid}}, {{ post.date | default: "1900-01-01" | date: "%Y" }}
         {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+         <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
@@ -62,17 +62,17 @@
     {% endif %}
     
     {% if post.authors and post.paperurl and post.preprinturl %}
-      <p>Author(s): {{ post.authors }}<br /><a href="{{ post.paperurl }}">Journal Article</a> | <a href="{{ post.preprinturl }}">Preprint</a></p>
+      Joint with {{ post.coauthors }}<br /><a href="{{ post.paperurl }}">Journal Article</a> | <a href="{{ post.preprinturl }}">Preprint</a>
     {% elsif post.authors and post.paperurl %}
-      <p>Author(s): {{ post.authors }}<br /><a href="{{ post.paperurl }}">Journal Article</a></p>
+      Joint with {{ post.coauthors }}<br /><a href="{{ post.paperurl }}">Journal Article</a>
     {% elsif post.authors and post.preprinturl %}
-      <p>Author(s): {{ post.authors }}<br /><a href="{{ post.preprinturl }}">Preprint</a></p>
+      Joint with {{ post.coauthors }}<br /><a href="{{ post.preprinturl }}">Preprint</a>
     {% elsif post.authors %}
-      <p>Author(s): {{ post.authors }}</p>
+      Joint with {{ post.authors }}
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Journal Article</a></p>
+      <a href=" {{ post.paperurl }} ">Journal Article</a>
     {% elsif post.preprinturl %}
-      <p><a href="{{ post.preprinturl }}">Preprint</a></p>
+      <a href="{{ post.preprinturl }}">Preprint</a>
     {% endif %}
    </li>
   </article>
