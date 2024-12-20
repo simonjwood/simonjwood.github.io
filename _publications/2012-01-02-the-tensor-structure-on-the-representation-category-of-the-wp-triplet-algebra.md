@@ -7,4 +7,5 @@ date: 2012-01-02
 venue: 'Journal of Physics A'
 paperurl: 'https://doi.org/10.1088/1751-8113/46/44/445203'
 citation: 'A. Tsuchiya and S. Wood, J. Phys. A, 46 (2013) 445203'
+authors: 'A. Tsuchiya and S. Wood'
 ---
