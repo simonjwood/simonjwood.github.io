@@ -15,7 +15,7 @@ Education
 Employment history
 ======
 * 2016 - present. Reader of Mathematics, Cardiff University
-* 2024. Visiting professor, Kyoto University
+* 2024.            Visiting professor, Kyoto University
 * 2022 - 2023. Humboldt Fellow, Hamburg University
 * 2014 - 2016. Postdoctoral researcher, The Australian National University
 * 2014 - 2016. Postdoctoral researcher, The University of Tokyo
