@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2009-07-26-fusion-rules-of-the-wpq-triplet-models
 date: 2009-07-26
 venue: 'Journal of Physics A'
+preprinturl: 'https://arxiv.org/abs/0907.4421'
 paperurl: 'https://doi.org/10.1088/1751-8113/43/4/045212'
 citation: 'S. Wood, J. Phys. A 43, 045212 (2010)'
 ---
