@@ -41,16 +41,16 @@
            {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
         {% elsif post.collection == 'publications' %}
 	  {% if post.category == 'review' %}
-	    Posted on <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+	    Posted on <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br />
 	  {% else %}
-            Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br />
 	  {% endif %}
         {% elsif post.collection == 'conferences' %}
-	   <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+	   <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br />
 	{% elsif post.collection == 'awards' %}
-	   <i>{{ post.funder }}</i>,  {{post.grantid}}, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+	   <i>{{ post.funder }}</i>,  {{post.grantid}}, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br />
         {% elsif post.date %}
-         <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+         <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time><br />
         {% endif %}
 <!--    {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
