@@ -11,8 +11,19 @@ author_profile: true
 
 {% endif %}
 
+{% assign postsByYear =
+    site.talks | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+  <h2>{{ year.name }}</h2>
+    <ul>
+      {% include archive-single-talk.html %}
+    </ul>
+{% endfor %}
+
+<!--
 {% for post in site.talks reversed %}
  <ul>
    {% include archive-single-talk.html %}
  </ul>
 {% endfor %}
+ -->
