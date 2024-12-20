@@ -1,9 +1,8 @@
 ---
-permalink: /
+permalink: /supervision/
 title: "Supervision"
 author_profile: true
 redirect_from: 
-  - /supervision/
   - /supervision.md
 ---
 
