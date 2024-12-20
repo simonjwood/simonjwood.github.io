@@ -34,11 +34,9 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-
         {% if post.collection == 'teaching' %}
            {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
         {% elsif post.collection == 'publications' %}
@@ -54,21 +52,19 @@
         {% elsif post.date %}
          <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
         {% endif %}
-
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    
-    {% if post.authors and post.paperurl and post.preprinturl %}
+    {% if post.coauthors and post.paperurl and post.preprinturl %}
       Joint with {{ post.coauthors }}<br /><a href="{{ post.paperurl }}">Journal Article</a> | <a href="{{ post.preprinturl }}">Preprint</a>
     {% elsif post.authors and post.paperurl %}
       Joint with {{ post.coauthors }}<br /><a href="{{ post.paperurl }}">Journal Article</a>
     {% elsif post.authors and post.preprinturl %}
       Joint with {{ post.coauthors }}<br /><a href="{{ post.preprinturl }}">Preprint</a>
-    {% elsif post.authors %}
-      Joint with {{ post.authors }}
+    {% elsif post.coauthors %}
+      Joint with {{ post.coauthors }}
     {% elsif post.paperurl %}
       <a href=" {{ post.paperurl }} ">Journal Article</a>
     {% elsif post.preprinturl %}
