@@ -20,10 +20,10 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Conference Organisation"
+  - title: "Conferences"
     url: /conferences/
 
-  - title: "Grants and Awards"
+  - title: "Awards"
     url: /awards/
 
   - title: "Teaching"
@@ -35,8 +35,8 @@ main:
   #- title: "Blog Posts"
   #  url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+  - title: "Biography"
+    url: /bio/
     
   #- title: "Guide"
   #  url: /markdown/
