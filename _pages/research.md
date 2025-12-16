@@ -32,13 +32,15 @@ Categories of modules over rational vertex algebras are so called modular tensor
 
 Vertex algebras and their modules are infinite dimensional vector spaces (with much additional structure). This means that it is very easy to get lost in technical details. Category theory is the perfect antidote to this as it ignores the internal structure of objects being studied and tries to understand them solely via the maps between objects. So while vertex algebra modules are infinite dimensional the spaces of maps between them, the dimension of spaces of maps between them is usually finite, so this is a large reduction of complexit, if one can find the correct categorical tools. The following papers show that well certain logarithmic vertex algebras with well chosen categories of modules admit structures that are as rich as those of rational vertex algebras.
 
+- Fusion rules and rigidity for weight modules over the simple admissible affine sl(2) and N=2 superconformal vertex operator superalgebras
 - Bosonic ghostbusting -- The bosonic ghost vertex algebra admits a logarithmic module category with rigid fusion
 - The tensor structure on the representation category of the $$\mathcal{W}_p$$ triplet algebra
 
 While categories of modules over vertex algebras will not be modular tensor categories, if the vertex algebra is not rational, they still admit many rich structures that generalise those of modular tensor categories. Recent work of mine shows that categories of modules over vertex algebras admit a duality structure called Grothendieck-Verdier duality. Exploring the implications of this duality structure was one of the main aims of a recent Humboldt Fellowship project that I undertook at Hamburg University.
 
-- Duality structures for module categories of vertex operator algebras and the Feigin Fuchs boson
+- Grothendieck-Verdier module categories, Frobenius algebras and relative Serre functors
 - Grothendieck-Verdier duality in categories of bimodules and weak module functors
+- Duality structures for module categories of vertex operator algebras and the Feigin Fuchs boson
 
 Connections to integrability
 ----------------------------
