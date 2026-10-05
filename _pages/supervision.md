@@ -40,11 +40,12 @@ Current and former group members
 * 2014 - 2019, Steve Siu (University of Melbourne), [Singular vectors for the $$W_N$$ algebras and the BRST cohomology for relaxed highest-weight $$L_k(\mathfrak{sl}(2))$$ modules](https://minerva-access.unimelb.edu.au/handle/11343/228926), joint with David Ridout. Now working for Oracle.
 
 ### Masters and project students
-* 2022 - 2023, Jack Brown, Symmetric Functions, (MMath, Cardiff)
+* 2025 - 2026, Thomas, Watson, Symmetric Functions, (MMath, Cardiff). Went on to master's at the University of Oxford.
+* 2023 - 2024, Jack Brown, Symmetric Functions, (MMath, Cardiff)
 * 2021 - 2022, Daniel Townley-Keogh, Galois Theory and its Applications to Classifying Modular Invariants, (MMath, Cardiff)
 * 2020 - 2021, Ieuan Fishlock, Representations of finite groups, (MMath, Cardiff)
-* 2019 - 2020, Owen Tanner, Kazdan-Lusztig Equations, (MMath, Cardiff), went on to PhD in Glasgow
-* 2018 - 2019, Tudur Lewis, Coxeter Groups, (MMath, Cardiff), went on to PhD in Glasgow
-* 2017 - 2018, Anna Clancy, Symmetric Polynomials, (MMath, Cardiff), went on to PhD in Glasgow
+* 2019 - 2020, Owen Tanner, Kazdan-Lusztig Equations, (MMath, Cardiff). Went on to PhD at the University of Glasgow.
+* 2018 - 2019, Tudur Lewis, Coxeter Groups, (MMath, Cardiff). Went on to PhD at the University of Glasgow.
+* 2017 - 2018, Anna Clancy, Symmetric Polynomials, (MMath, Cardiff). Went on to PhD at the University of Glasgow.
 * 2015 - 2016, John Snadden, Modular properties of the affine superalgebra $$\mathfrak{osp}(1\vert 2)$$, (MPhil project, ANU) joint with David Ridout, which led to the paper [An admissible level $$\widehat{\mathfrak{osp}}(1\vert 2)$$-model: modular transformations and the Verlinde formula](https://doi.org/10.1007/s11005-018-1097-5). Went on to a PhD at Northwestern University.
-* 2015, Matthew Geleta, The Coulomb gas formalism, (Honours student, ANU) joint with David Ridout
+* 2015, Matthew Geleta, The Coulomb gas formalism, (Honours student, ANU) joint with David Ridout. Went on to a master's at the University of Oxford and then a PhD at the University of Cambridge.
