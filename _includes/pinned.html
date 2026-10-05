@@ -1,0 +1,27 @@
+{% comment %}
+  Pinned announcements for the landing page, read from the page's front matter:
+    pinned:
+      - text: "Markdown text (links allowed)"
+        until: 2027-03-31
+  Items past their `until` date are dropped at build time, and hidden in the
+  browser if they expire between builds. Expired items need not be deleted.
+{% endcomment %}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% capture pinned_items %}{% for item in page.pinned %}{% assign until = item.until | date: "%Y-%m-%d" %}{% if until >= today %}<p class="pinned-item" data-until="{{ until }}">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}{% endfor %}{% endcapture %}
+{% if pinned_items != "" %}
+<div class="pinned-news">{{ pinned_items }}</div>
+<script>
+  (function () {
+    var today = new Date().toISOString().slice(0, 10);
+    document.querySelectorAll('.pinned-item[data-until]').forEach(function (el) {
+      if (el.getAttribute('data-until') < today) { el.style.display = 'none'; }
+    });
+    document.querySelectorAll('.pinned-news').forEach(function (box) {
+      var visible = Array.prototype.some.call(box.querySelectorAll('.pinned-item'), function (el) {
+        return el.style.display !== 'none';
+      });
+      if (!visible) { box.style.display = 'none'; }
+    });
+  })();
+</script>
+{% endif %}

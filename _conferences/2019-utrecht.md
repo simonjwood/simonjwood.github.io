@@ -6,4 +6,5 @@ permalink: /conferences/2019-utrecht
 venue: "Utrecht University"
 date: 2019-05-16
 location: "Utrecht, Netherlands"
+link: "https://sites.google.com/site/beyondrationality2"
 ---

@@ -39,3 +39,60 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+/* Publications: short summary and collapsible abstract */
+.pub-summary {
+  margin: 0.4em 0 0.2em;
+}
+.pub-abstract {
+  margin: 0.2em 0 0.8em;
+  font-size: $type-size-6;
+}
+.pub-abstract > summary {
+  cursor: pointer;
+  color: $link-color;
+}
+.pub-abstract > summary:hover {
+  text-decoration: underline;
+}
+.pub-abstract[open] > summary {
+  margin-bottom: 0.4em;
+}
+.pub-abstract p {
+  margin: 0 0 0.5em 1em;
+}
+
+/* Selected publications: highlighted "why it matters" note */
+.pub-selected-note {
+  margin: 0.4em 0 0.2em;
+  padding: 0.3em 0 0.3em 0.8em;
+  border-left: 3px solid $link-color;
+}
+
+/* List pages (publications, talks, conferences, awards): the theme reserves
+   200-400px on the right of each list item for a right-hand sidebar that these
+   pages do not use. Remove it so the lists use the same width as the Biography page. */
+.archive .list__item {
+  padding-right: 0;
+}
+
+/* Landing page: pinned announcements and recent activity */
+.pinned-news {
+  margin: 0 0 1.5em;
+  padding: 0.6em 1em;
+  background: mix(#fff, $link-color, 92%);
+  border-left: 4px solid $link-color;
+}
+.pinned-item {
+  margin: 0.3em 0;
+}
+.recent-activity {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.recent-activity li {
+  margin-bottom: 0.4em;
+}
+.recent-activity__date {
+  font-weight: bold;
+}

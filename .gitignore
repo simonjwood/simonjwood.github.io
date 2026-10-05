@@ -11,3 +11,15 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Ignore gem stuff for previews
+vendor/
+
+# Private notes 
+WEBSITE_TODO.md
+LOCAL_PREVIEW.txt
+# Emacs backup and auto-save files
+*~
+\#*\#
+# Bundler's local config
+.bundle/

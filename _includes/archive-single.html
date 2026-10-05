@@ -47,7 +47,8 @@
         {% elsif post.collection == 'conferences' %}
 	   <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br />
 	{% elsif post.collection == 'awards' %}
-	   <i>{{ post.funder }}</i>,  {{post.grantid}}, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br />
+	   {% if post.project %}Project: “{{ post.project }}”<br />{% endif %}
+	   <i>{{ post.funder }}</i>, {% if post.grantid %}{{ post.grantid }}, {% endif %}{{ post.date | default: "1900-01-01" | date: "%Y" }}<br />
         {% elsif post.date %}
          <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time><br />
         {% endif %}
@@ -56,18 +57,12 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %} -->
-    {% if post.coauthors and post.paperurl and post.preprinturl %}
-      Joint with {{ post.coauthors }}<br /><a href="{{ post.paperurl }}">Journal Article</a> | <a href="{{ post.preprinturl }}">Preprint</a>
-    {% elsif post.authors and post.paperurl %}
-      Joint with {{ post.coauthors }}<br /><a href="{{ post.paperurl }}">Journal Article</a>
-    {% elsif post.authors and post.preprinturl %}
-      Joint with {{ post.coauthors }}<br /><a href="{{ post.preprinturl }}">Preprint</a>
-    {% elsif post.coauthors %}
-      Joint with {{ post.coauthors }}
-    {% elsif post.paperurl %}
-      <a href=" {{ post.paperurl }} ">Journal Article</a>
-    {% elsif post.preprinturl %}
-      <a href="{{ post.preprinturl }}">Preprint</a>
+    {% if post.coauthors %}Joint with {{ post.coauthors }}<br />{% endif %}
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">Journal Article</a>{% endif %}{% if post.paperurl and post.preprinturl %} | {% endif %}{% if post.preprinturl %}<a href="{{ post.preprinturl }}">Preprint</a>{% endif %}
+    {% if post.collection == 'publications' %}
+      {% if include.selected and post.selected_note %}<p class="pub-selected-note">{{ post.selected_note | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% elsif post.summary %}<p class="pub-summary">{{ post.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
+      {% if post.abstract %}<details class="pub-abstract"><summary>Show abstract</summary>{{ post.abstract | markdownify }}</details>{% endif %}
     {% endif %}
    </li>
 <!--  </article>-->

@@ -13,6 +13,16 @@ author_profile: true
 
 {% include base_path %}
 
+{% assign selected_pubs = site.publications | where: "selected", true | sort: "selected_order" %}
+{% if selected_pubs.size > 0 %}
+  <h2>Selected publications</h2><hr />
+  {% for post in selected_pubs %}
+    <ul>
+      {% include archive-single.html selected=true %}
+    </ul>
+  {% endfor %}
+{% endif %}
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}

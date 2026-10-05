@@ -11,10 +11,10 @@ locale                   : "en-GB"
 title                    : "Simon Wood" #"Your Name / Site Title"
 title_separator          : #"-"
 name                     : &name "Simon Wood"
-description              : &description "personal description"
+description              : &description "Simon Wood, Mathematician at Cardiff University, working on vertex algebras, tensor categories and conformal field theory"
 url                      : "https://simonjwood.github.io" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "simonjwood/simonjwood.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -78,14 +78,14 @@ author:
 publication_category:
   review:
     title: 'Under Review'
-  proceedings:
-    title: 'Conference Proceedings'
-  chapters:
-    title: 'Book Chapters'
   books:
     title: 'Books'
+  chapters:
+    title: 'Book Chapters'
+  proceedings:
+    title: 'Conference Proceedings'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -187,6 +187,12 @@ exclude:
   - README
   - tmp
   - vendor
+  # Private working files, not part of the published site
+  - mismatches.txt
+  - presentation_list_copy_past.txt
+  - LOCAL_PREVIEW.txt
+  - WEBSITE_TODO.md
+  - "*~"
 keep_files:
   - .git
   - .svn
@@ -289,6 +295,22 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  # _conferences
+  - scope:
+      path: ""
+      type: conferences
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _awards
+  - scope:
+      path: ""
+      type: awards
+    values:
+      layout: single
       author_profile: true
       share: true
 

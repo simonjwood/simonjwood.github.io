@@ -4,8 +4,9 @@ collection: talks
 type: "Talk"
 permalink: /talks/2016-notredame
 venue: "Mathematics Seminar, Notre Dame University"
-date: 2016-01-01
-location: "Southbend, Indiana, USA"
+date: 2016-03-07 
+location: "South Bend, Indiana, USA"
+slidesurl: /files/talks/2016-notredame.pdf
 ---
 
 

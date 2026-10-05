@@ -38,6 +38,8 @@
     {% endif %} -->
     {% if post.date %}<i class="fa fa-clock-o" aria-hidden="true"></i>{{ post.date | date: '%B, %Y' }},{% endif %}
     {% if post.venue %}<!--{{post.type}},--> {{ post.venue }}<br />{{post.location}} {% endif %}
+    {% if post.slidesurl %}{% if post.slidesurl contains "://" %}{% assign slides = post.slidesurl %}{% else %}{% assign slides = post.slidesurl | prepend: base_path %}{% endif %}<br /><a href="{{ slides }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Slides</a>{% endif %}
+    {% if post.recordingurl %}{% if post.slidesurl %} | {% else %}<br />{% endif %}<a href="{{ post.recordingurl }}"><i class="fa fa-video-camera" aria-hidden="true"></i> Recording</a>{% endif %}
     <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}-->
      </li>
   </article>

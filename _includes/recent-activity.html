@@ -1,0 +1,25 @@
+{% comment %}
+  The newest items (default 3) across talks, organised conferences, new papers
+  (by arXiv date) and awards. Items dated after the build are not shown.
+  Usage: {% include recent-activity.html count=3 %}
+{% endcomment %}
+{% include base_path %}
+{% assign ra_count = include.count | default: 3 %}
+{% assign ra_now = site.time | date: "%s" | plus: 0 %}
+{% assign ra_items = site.talks | concat: site.conferences | concat: site.publications | concat: site.awards | sort: "date" | reverse %}
+{% assign ra_shown = 0 %}
+<ul class="recent-activity">
+{% for item in ra_items %}
+  {% assign ra_ts = item.date | date: "%s" | plus: 0 %}
+  {% if ra_ts > ra_now %}{% continue %}{% endif %}
+  {% case item.collection %}
+    {% when "talks" %}{% assign ra_label = "Talk" %}{% assign ra_where = item.location %}
+    {% when "conferences" %}{% assign ra_label = "Organised" %}{% assign ra_where = item.location %}
+    {% when "publications" %}{% assign ra_label = "New paper" %}{% assign ra_where = nil %}
+    {% when "awards" %}{% assign ra_label = "Award" %}{% assign ra_where = item.funder %}
+  {% endcase %}
+  <li><span class="recent-activity__date">{{ item.date | date: "%B %Y" }}</span> — {{ ra_label }}: <a href="{{ base_path }}{{ item.url }}">{{ item.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>{% if ra_where %}, {{ ra_where }}{% endif %}</li>
+  {% assign ra_shown = ra_shown | plus: 1 %}
+  {% if ra_shown >= ra_count %}{% break %}{% endif %}
+{% endfor %}
+</ul>
