@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "Simon Wood - Mathematician working on vertex algebras, tensor categories and conformal field theory"
+title: "Simon Wood"
+seo_title: "Simon Wood | Mathematics, Cardiff University"
 author_profile: true
 redirect_from: 
   - /about/

@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-GB"
 title                    : "Simon Wood" #"Your Name / Site Title"
-title_separator          : #"-"
+title_separator          : "|"
 name                     : &name "Simon Wood"
 description              : &description "Simon Wood, Mathematician at Cardiff University, working on vertex algebras, tensor categories and conformal field theory"
 url                      : "https://www.simonwood.eu" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
