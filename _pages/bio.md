@@ -23,7 +23,7 @@ Employment history
 Professional service
 ======
 * 2026 - present. Member, EPSRC Peer Review College
-* 2018 - present. School Representative to the London Mathematical Society
+* 2018 - present. Departmental Representative to the London Mathematical Society
 
 Outreach
 ======
