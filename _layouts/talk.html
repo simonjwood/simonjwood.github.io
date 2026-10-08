@@ -43,7 +43,7 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        {% if page.slidesurl %}{% if page.slidesurl contains "://" %}{% assign slides = page.slidesurl %}{% else %}{% assign slides = page.slidesurl | prepend: base_path %}{% endif %}<div><a href="{{ slides }}" class="btn"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Slides (PDF)</a></div>{% endif %}
+        {% if page.slidesurl %}{% if page.slidesurl contains "://" %}{% assign slides = page.slidesurl %}{% else %}{% assign slides = page.slidesurl | prepend: base_path %}{% endif %}<div><a href="{{ slides }}" class="btn"><i class="fa fa-chalkboard-user" aria-hidden="true"></i> Slides (PDF)</a></div>{% endif %}
         {% if page.recordingurl %}<div><a href="{{ page.recordingurl }}" class="btn"><i class="fa fa-video-camera" aria-hidden="true"></i> Recording</a></div>{% endif %}
       </section>
 
