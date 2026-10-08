@@ -14,7 +14,7 @@ Education
 
 Employment history
 ======
-* 2016 - present. Reader of Mathematics, Cardiff University
+* 2016 - present. Professor of Mathematics, Cardiff University
 * 2024\. Visiting Professor, Kyoto University
 * 2022 - 2023. Humboldt Fellow, Hamburg University
 * 2014 - 2016. Postdoctoral Researcher, The Australian National University
