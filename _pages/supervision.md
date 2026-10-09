@@ -40,7 +40,7 @@ Current and former group members
 * 2014 - 2019, Steve Siu (University of Melbourne), [Singular vectors for the $$W_N$$ algebras and the BRST cohomology for relaxed highest-weight $$L_k(\mathfrak{sl}(2))$$ modules](https://minerva-access.unimelb.edu.au/handle/11343/228926), joint with David Ridout. Now working for Oracle.
 
 ### Masters and project students
-* 2025 - 2026, Thomas, Watson, Symmetric Functions, (MMath, Cardiff). Went on to master's at the University of Oxford.
+* 2025 - 2026, Thomas Watson, Symmetric Functions, (MMath, Cardiff). Went on to master's at the University of Oxford.
 * 2023 - 2024, Jack Brown, Symmetric Functions, (MMath, Cardiff)
 * 2021 - 2022, Daniel Townley-Keogh, Galois Theory and its Applications to Classifying Modular Invariants, (MMath, Cardiff)
 * 2020 - 2021, Ieuan Fishlock, Representations of finite groups, (MMath, Cardiff)
