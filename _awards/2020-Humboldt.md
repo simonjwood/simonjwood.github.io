@@ -4,6 +4,7 @@ collection: awards
 type: "Awards"
 permalink: /awards/2020-humboldt
 funder: "Humboldt Foundation"
-grantid: "Ref 3.3 - GBR - 1212053 - HFST-E"
-date: 2020-03-23  
+date: 2020-03-23
+project: "Exploring quantum group structures in logarithmic conformal field theory"
+link: "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/feodor-lynen-research-fellowship/feodor-lynen-search-for-a-host/singleview/1212053/dr-simon-wood"
 ---
