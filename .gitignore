@@ -18,8 +18,9 @@ vendor/
 # Private notes 
 WEBSITE_TODO.md
 LOCAL_PREVIEW.txt
-# Emacs backup and auto-save files
+# Emacs backup, auto-save and lock files
 *~
 \#*\#
+.#*
 # Bundler's local config
 .bundle/
