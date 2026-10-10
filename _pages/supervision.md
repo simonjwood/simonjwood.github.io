@@ -46,6 +46,6 @@ Current and former group members
 * 2020 - 2021, Ieuan Fishlock, Representations of finite groups, (MMath, Cardiff)
 * 2019 - 2020, Owen Tanner, Kazdan-Lusztig Equations, (MMath, Cardiff). Went on to PhD at the University of Glasgow.
 * 2018 - 2019, Tudur Lewis, Coxeter Groups, (MMath, Cardiff). Went on to PhD at the University of Glasgow.
-* 2017 - 2018, Anna Clancy, Symmetric Polynomials, (MMath, Cardiff). Went on to PhD at the University of Glasgow.
+* 2017 - 2018, Anna Clancy, Symmetric Polynomials, (MMath, Cardiff).
 * 2015 - 2016, John Snadden, Modular properties of the affine superalgebra $$\mathfrak{osp}(1\vert 2)$$, (MPhil project, ANU) joint with David Ridout, which led to the paper [An admissible level $$\widehat{\mathfrak{osp}}(1\vert 2)$$-model: modular transformations and the Verlinde formula](https://doi.org/10.1007/s11005-018-1097-5). Went on to a PhD at Northwestern University.
 * 2015, Matthew Geleta, The Coulomb gas formalism, (Honours student, ANU) joint with David Ridout. Went on to a master's at the University of Oxford and then a PhD at the University of Cambridge.
