@@ -1,5 +1,5 @@
 ---
-title: "The tensor structure on the representation category of the $$W_p$$ triplet algebra"
+title: 'The tensor structure on the representation category of the $$\mathcal{W}_p$$ triplet algebra'
 collection: publications
 category: manuscripts
 permalink: /publication/2012-01-02-the-tensor-structure-on-the-representation-category-of-the-wp-triplet-algebra
