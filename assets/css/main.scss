@@ -96,3 +96,30 @@
 .recent-activity__date {
   font-weight: bold;
 }
+
+/* Faint research diagram behind the text on every page. It sits on an empty
+   decorative div (_includes/page-bg.html) that sticks below the masthead and fills
+   the window height, so the text scrolls over a stationary diagram. Adjust the
+   opacity here; the SVG itself is kept at full strength. */
+.page__inner-wrap,
+.archive {
+  position: relative;
+  isolation: isolate;
+  /* Tall enough for the sticky diagram, so it never overlaps the footer. */
+  min-height: calc(100vh - #{$masthead-height});
+}
+.page__bg {
+  position: sticky;
+  top: $masthead-height;
+  z-index: -1;
+  height: calc(100vh - #{$masthead-height});
+  /* Take up no space, so the content starts at the top of the diagram. */
+  margin-bottom: calc(#{$masthead-height} - 100vh);
+  background: url("../../images/projective_res.svg") top center / contain no-repeat;
+  opacity: 0.12;
+  /* Fade out over the bottom 15%, so the diagram dissolves instead of stopping
+     at a hard edge. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 85%, transparent);
+  mask-image: linear-gradient(to bottom, #000 85%, transparent);
+  pointer-events: none;
+}
