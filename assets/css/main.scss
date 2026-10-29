@@ -123,3 +123,17 @@
   mask-image: linear-gradient(to bottom, #000 85%, transparent);
   pointer-events: none;
 }
+
+/* Mobile sidebar: the theme shows the photo at 36px wide, much shorter than the
+   bio beside it. Make it about as tall as the wrapped bio and centre both. */
+.sidebar .author__avatar,
+.sidebar .author__content {
+  vertical-align: middle;
+}
+.sidebar .author__avatar {
+  width: 90px;
+
+  @include breakpoint($large) {
+    width: auto;
+  }
+}
