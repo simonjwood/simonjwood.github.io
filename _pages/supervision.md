@@ -1,6 +1,8 @@
 ---
 permalink: /supervision/
 title: "Supervision"
+seo_title: "PhD supervision in vertex algebras and CFT | Simon Wood"
+description: "PhD and undergraduate projects with Simon Wood at Cardiff University in vertex algebras, conformal field theory and tensor categories, and how to get in touch."
 author_profile: true
 redirect_from: 
   - /supervision.md

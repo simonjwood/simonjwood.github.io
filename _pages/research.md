@@ -1,6 +1,8 @@
 ---
 permalink: /research/
 title: "Research"
+seo_title: "Research: vertex algebras and logarithmic CFT | Simon Wood"
+description: "Simon Wood's research on vertex operator algebras, tensor categories and logarithmic conformal field theory, from module classification to fusion and Verlinde formulae."
 author_profile: true
 ---
 

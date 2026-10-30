@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Biography"
+seo_title: "Biography | Simon Wood, Professor of Mathematics"
+description: "Biography of Simon Wood, Professor of Mathematics at Cardiff University: PhD in theoretical physics from ETH Zurich, posts in Tokyo, Canberra, Hamburg and Kyoto."
 permalink: /bio/
 redirect_from:
   - /biography/
