@@ -4,6 +4,7 @@ title: "Supervision"
 author_profile: true
 redirect_from: 
   - /supervision.md
+  - /phdproject/
 ---
 
 Prospective PhD students

@@ -11,7 +11,9 @@ A list of all the pages found on the site. For you robots out there is an [XML v
 
 <h2>Pages</h2>
 {% for post in site.pages %}
+  {% unless post.sitemap == false or post.title == nil or post.title == "" %}
   {% include archive-single.html %}
+  {% endunless %}
 {% endfor %}
 
 {% if site.posts.size > 0 %}

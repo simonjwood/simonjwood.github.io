@@ -2,6 +2,8 @@
 layout: archive
 title: "Biography"
 permalink: /bio/
+redirect_from:
+  - /biography/
 author_profile: true
 ---
 

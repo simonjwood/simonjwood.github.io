@@ -6,6 +6,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /home/
 # Pinned announcements (e.g. open PhD or postdoc positions), shown in a box at the top of
 # this page until the given date. Markdown links are allowed. Expired items disappear by
 # themselves; delete them whenever convenient.

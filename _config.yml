@@ -187,6 +187,11 @@ exclude:
   - README
   - tmp
   - vendor
+  # Tools for maintaining the site, not part of the published site
+  - CONTRIBUTING.md
+  - markdown_generator
+  - talkmap.py
+  - talkmap.ipynb
   # Private working files, not part of the published site
   - mismatches.txt
   - presentation_list_copy_past.txt
