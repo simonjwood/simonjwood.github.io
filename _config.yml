@@ -145,7 +145,12 @@ og_image                 :  # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
+  job_title              : "Professor of Mathematics" # Shown to search engines with author.employer
   links: # An array of links to social media profiles
+    - "https://orcid.org/0000-0002-8257-0378"
+    - "https://scholar.google.com/citations?user=1L-XFbcAAAAJ"
+    - "http://arxiv.org/a/wood_s_2"
+    - "https://profiles.cardiff.ac.uk/staff/woodsi"
 
 
 # Analytics
