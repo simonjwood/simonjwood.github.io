@@ -139,7 +139,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "og-card.png" # Open Graph/Twitter default site image (1200x630), source in _source/og-card.svg
+og_image_alt             : "Simon Wood, Professor of Mathematics, Cardiff University, beside a diagram of a projective resolution"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

@@ -98,7 +98,19 @@
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+{% elsif site.og_image %}
+  {% comment %} Site-wide default preview image for shared links {% endcomment %}
+  <meta property="og:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ site.og_image_alt | default: site.title | escape_once }}">
 {% endif %}
+{% unless site.twitter.username %}
+  {% if page.header.image or page.header.overlay_image or site.og_image %}
+    {% comment %} X/Bluesky read the og: tags, but need this to show the image large {% endcomment %}
+    <meta name="twitter:card" content="summary_large_image">
+  {% endif %}
+{% endunless %}
 
 {% if page.date %}
   <meta property="og:type" content="article">
@@ -112,7 +124,7 @@
   <link rel="next" href="{{ paginator.next_page_path | prepend: seo_url }}">
 {% endif %}
 
-{% if site.og_image %}
+{% if site.og_image and site.social.type == "Organization" %}
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
