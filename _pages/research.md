@@ -6,40 +6,66 @@ description: "Simon Wood's research on vertex operator algebras, tensor categori
 author_profile: true
 ---
 
-Most of my work focuses on the rigorous algebraic underpinnings of two dimensional conformal field theory in the form of vertex operator algebras and tensor categories.
+My research concerns the algebraic structures underlying two-dimensional conformal field theory, in particular vertex operator algebras, their representations and the tensor categories these representations form.
 
-Conformal symmetry
------------------
+A central theme is what happens beyond the well-understood rational setting. When semisimplicity is lost, or when there are infinitely many simple modules, familiar structures such as fusion, modularity and duality become substantially richer and more subtle. My work approaches these questions from several interconnected directions: explicit representation theory, modular structures and generalised Verlinde formulae, tensor categories, and categorical duality.
 
-The algebraic axiomatisation of the symmetries underlying a two dimensional conformal field theory is called a vertex (operator) algebra. Vertex algebras can be thought of as a kind of generalisation of associative commutative algebras but different from associative non-commutative algebras. As with associative algebras, much can be learnt from studying modules and many questions in the study of conformal field theory boil down question in vertex algebra module theory.
+[Representation theory](#representation-theory) · [Modularity & Verlinde](#modularity-and-verlinde) · [Tensor categories & fusion](#tensor-categories-and-fusion) · [Categorical duality](#categorical-duality)
 
-The most studied vertex algebras are the so called rational vertex algebras. These are distinguished by the fact that their categories of modules are semisimple with only a finite number of isomorphism classes of simple modules. I focus on vertex algebras for which neither the semi-simplicity nor the finite number of simple modules assumption need hold. Vertex algebras for which the semi-simplicity assumption fails are called logarithmic vertex algebras and the conformal field theories associated to them are called logarithmic conformal field theories. Some big endeavours in this context include module classification, analysing the additional structures that these modules admit (characters, fusion products, Verlinde formulae, etc) and finding the right abstract categorical tools which will enable a general structure theory.
+## Vertex algebras and representation theory {#representation-theory}
 
-My work on vertex algebra module classification makes use of certain associative algebras, called Zhu algebras, which encode a lot of information about vertex algebra module theory. Zhu algebras are notoriously hard to work with in practice and I have developed methods which recast hard Zhu algebra questions into comparatively easier questions in terms of the combinatorics of symmetric functions. Some representative publications in this line of research include:
+Vertex algebras provide an algebraic axiomatisation of the infinite-dimensional symmetries that arise in two-dimensional conformal field theory. They can be thought of as a generalisation of commutative associative algebras, and, as with associative algebras, much can be learnt from studying their modules: many questions in conformal field theory reduce to questions about vertex algebra modules.
+
+The best understood vertex algebras are the rational ones, whose module categories are semisimple with only finitely many simple objects up to isomorphism. Much of my work concerns vertex algebras for which neither assumption need hold. Those whose module categories are not semisimple are called logarithmic, and the associated conformal field theories logarithmic conformal field theories. A basic problem in this setting is to classify the modules and understand how they are built from simple ones.
+
+One tool for this is the Zhu algebra, an associative algebra which captures important information about vertex algebra representations but is notoriously difficult to compute with directly. I have developed methods, based on free field realisations, that translate such questions into the combinatorics of symmetric functions, particularly Jack polynomials. These yield explicit singular vectors and presentations of Zhu algebras, and hence module classifications for minimal models of the Virasoro, $$\mathcal{N}=1$$ superconformal, affine $$\mathfrak{sl}(2)$$ and affine $$\mathfrak{osp}(1\vert2)$$ algebras.
+
+**Selected papers**
 
 - [Admissible level $$\mathfrak{osp}(1\vert2)$$ minimal models and their relaxed highest weight modules](/publication/2018-04-04-admissible-level-osp12-minimal-models-and-their-relaxed-highest-weight-modules)
 - [Superconformal minimal models and admissible Jack polynomials](/publication/2016-06-14-superconformal-minimal-models-and-admissible-jack-polynomials)
 - [Relaxed singular vectors, Jack symmetric functions and fractional level $$\widehat{\mathfrak{sl}}(2)$$ models](/publication/2015-01-29-relaxed-singular-vectors-jack-symmetric-functions-and-fractional-level-sl2-models)
-- [From Jack polynomials to minimal model spectra](/publication/2014-09-17-from-jack-polynomials-to-minimal-model-spectra)
-- [On the extended $$W$$-algebra of type $$\mathfrak{sl}_2$$ at positive rational level](/publication/2013-02-26-on-the-extended-w-algebra-of-type-sl2-at-positive-rational-level)
 
-Categories of modules over rational vertex algebras are so called modular tensor categories. Among many other things, this implies that the much celebrated Verlinde formula holds. This formula relates the fusion product of modules (a kind of tensor product) to an action of the modular group, $$\mathsf{SL}(2,\mathbb{Z})$$, on module characters. My work aims to generalise this Verlinde formula to logarithmic vertex algebras. Some representative publication in this line of research include:
+## Logarithmic CFT, modularity and Verlinde formulae {#modularity-and-verlinde}
+
+For rational vertex algebras, representation theory, tensor products and modular transformations are tied together: the module category is a modular tensor category and the Verlinde formula expresses the fusion rules in terms of the action of the modular group $$\mathsf{SL}(2,\mathbb{Z})$$ on module characters. One of the central questions in logarithmic conformal field theory is how much of this picture survives when semisimplicity, or finiteness, is lost.
+
+My work has helped develop generalisations of the Verlinde formula for a range of logarithmic and non-rational models. In the standard module formalism, the characters of a continuous family of "standard" modules transform under $$\mathsf{SL}(2,\mathbb{Z})$$ via an integral kernel, and a continuous analogue of the Verlinde formula then recovers the Grothendieck fusion rules. I have applied and refined this approach for singlet and triplet models, bosonic ghosts, and admissible-level affine $$\mathfrak{osp}(1\vert2)$$ and $$\mathfrak{sl}(3)$$ models.
+
+A recurring theme is understanding how modular properties of characters and related functions, such as false theta functions and torus one-point functions, encode fusion data even when the conventional rational theory no longer applies.
+
+**Selected papers**
 
 - [Admissible-level $$\mathfrak{sl}(3)$$ minimal models](/publication/2021-07-28-admissible-level-sl3-minimal-models)
-- [An admissible level $$\widehat{\mathfrak{osp}}(1\vert2)$$-model: modular transformations and the Verlinde formula](/publication/2017-05-11-an-admissible-level-osp12-model-modular-transformations-and-the-verlinde-formula)
-- [On Regularised Quantum Dimensions of the Singlet Vertex Operator Algebra and False Theta Functions](/publication/2014-11-12-on-regularised-quantum-dimensions-of-the-singlet-vertex-operator-algebra-and-false-theta-functions)
 - [The Verlinde formula in logarithmic CFT](/publication/2014-09-02-the-verlinde-formula-in-logarithmic-cft)
-- [Bosonic Ghosts at $$c=2$$ as a Logarithmic CFT](/publication/2014-08-19-bosonic-ghosts-at-c2-as-a-logarithmic-cft)
-- [Modular Transformations and Verlinde Formulae for Logarithmic $$(p_+,p_−)$$-Models](/publication/2013-10-24-modular-transformations-and-verlinde-formulae-for-logarithmic-pp-models)
+- [Modular Transformations and Verlinde Formulae for Logarithmic $$(p_+,p_-)$$-Models](/publication/2013-10-24-modular-transformations-and-verlinde-formulae-for-logarithmic-pp-models)
 
-Vertex algebras and their modules are infinite dimensional vector spaces (with much additional structure). This means that it is very easy to get lost in technical details. Category theory is the perfect antidote to this as it ignores the internal structure of objects being studied and tries to understand them solely via the maps between objects. So while vertex algebra modules are infinite dimensional, the spaces of maps between them are usually finite dimensional, so this is a large reduction of complexity, if one can find the correct categorical tools. The following papers show that certain logarithmic vertex algebras, with well-chosen categories of modules, admit structures that are as rich as those of rational vertex algebras.
+## Tensor categories and fusion {#tensor-categories-and-fusion}
+
+Although vertex algebra modules are typically infinite-dimensional, the spaces of morphisms between them are usually finite-dimensional. Studying modules through the categories they form, rather than through their internal structure, therefore gives a substantial reduction in complexity, provided one can identify the right categorical tools.
+
+I am interested in determining when categories of modules over non-rational vertex algebras carry tensor structures analogous to those familiar from rational conformal field theory. This includes computing fusion rules and establishing properties such as rigidity. Results in this direction include a rigorous version of the Nahm–Gaberdiel–Kausch fusion algorithm and a proof of rigidity for the $$\mathcal{W}_p$$ triplet algebras; the first proof of rigidity for a logarithmic vertex algebra that is not $$C_2$$-cofinite, the bosonic ghosts; and rigidity of the weight-module categories of the admissible-level affine $$\mathfrak{sl}(2)$$ and $$\mathcal{N}=2$$ superconformal algebras, confirming their long-conjectured fusion rules.
+
+These results show that, with well-chosen module categories, logarithmic theories can retain considerably more structure than the loss of semisimplicity might suggest.
+
+**Selected papers**
 
 - [Fusion rules and rigidity for weight modules over the simple admissible affine $$\mathfrak{sl}(2)$$ and $$N=2$$ superconformal vertex operator superalgebras](/publication/2024-11-18-fusion-rules-and-rigidity-for-weight-modules-over-the-simple-admissible-affine-sl2-and-n2-superconformal-vertex-operator-superalgebras)
-- [Bosonic ghostbusting - The bosonic ghost vertex algebra admits a logarithmic module category with rigid fusion](/publication/2020-01-16-bosonic-ghostbusting-the-bosonic-ghost-vertex-algebra-admits-a-logarithmic-module-category-with-rigid-fusion)
+- [Bosonic ghostbusting – The bosonic ghost vertex algebra admits a logarithmic module category with rigid fusion](/publication/2020-01-16-bosonic-ghostbusting-the-bosonic-ghost-vertex-algebra-admits-a-logarithmic-module-category-with-rigid-fusion)
 - [The tensor structure on the representation category of the $$W_p$$ triplet algebra](/publication/2012-01-02-the-tensor-structure-on-the-representation-category-of-the-wp-triplet-algebra)
 
-While categories of modules over vertex algebras will not be modular tensor categories, if the vertex algebra is not rational, they still admit many rich structures that generalise those of modular tensor categories. Recent work of mine shows that categories of modules over vertex algebras admit a duality structure called Grothendieck-Verdier duality. Exploring the implications of this duality structure was one of the main aims of a recent Humboldt Fellowship project that I undertook at Hamburg University.
+## Categorical duality {#categorical-duality}
 
-- [Grothendieck-Verdier module categories, Frobenius algebras and relative Serre functors](/publication/2024-05-31-grothendieck-verdier-module-categories-frobenius-algebras-and-relative-serre-functors)
-- [Grothendieck-Verdier duality in categories of bimodules and weak module functors](/publication/2023-06-30-grothendieck-verdier-duality-in-categories-of-bimodules-and-weak-module-functors)
+Tensor categories arising from non-rational vertex algebras need not admit rigid duals for all objects, but they can carry more general forms of duality. I have shown that taking contragredient duals equips categories of vertex algebra modules with the structure of ribbon Grothendieck–Verdier categories, a generalisation of rigidity that allows for tensor products which are not exact.
+
+This provides a framework for understanding duality when ordinary rigidity is unavailable, and connects vertex algebra representation theory with broader developments in tensor category theory. Exploring its consequences was a main aim of my Humboldt Fellowship project at the University of Hamburg, which studied Grothendieck–Verdier duality for categories of bimodules, module categories over Grothendieck–Verdier categories, and their relation to Frobenius algebras and relative Serre functors.
+
+**Selected papers**
+
+- [Grothendieck–Verdier module categories, Frobenius algebras and relative Serre functors](/publication/2024-05-31-grothendieck-verdier-module-categories-frobenius-algebras-and-relative-serre-functors)
+- [Grothendieck–Verdier duality in categories of bimodules and weak module functors](/publication/2023-06-30-grothendieck-verdier-duality-in-categories-of-bimodules-and-weak-module-functors)
 - [Duality structures for representation categories of vertex operator algebras and the Feigin–Fuchs boson](/publication/2021-07-12-duality-structures-for-module-categories-of-vertex-operator-algebras-and-the-feigin-fuchs-boson)
+
+---
+
+[All publications →](/publications/)
