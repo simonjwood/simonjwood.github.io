@@ -2,20 +2,20 @@
 
 <!-- start custom head snippets -->
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Serif:wght@400;600&display=swap">
+<!-- IBM Plex is self-hosted (see _sass/_fonts.scss); preload the body text font. -->
+<link rel="preload" href="{{ base_path }}/assets/fonts/ibm-plex/ibm-plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <link rel="icon" href="{{ base_path }}/favicon.ico" sizes="48x48">
 <link rel="icon" href="{{ base_path }}/images/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{{ base_path }}/images/favicon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="{{ base_path }}/images/apple-touch-icon.png">
 <meta name="theme-color" content="#fff8eb">
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
 
-<!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<!-- MathJax, loaded only on pages that contain LaTeX (kramdown turns $$...$$ into
+     \(...\) and \[...\]). Set `mathjax: true` in a page's front matter to force it. -->
+{% if page.mathjax or content contains '\(' or content contains '\[' or content contains '$$' or content contains '\begin{' %}
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
 
 <!-- end custom head snippets -->

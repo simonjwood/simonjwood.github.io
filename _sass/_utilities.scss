@@ -176,144 +176,155 @@ body:hover .visually-hidden button {
    Icons
    ========================================================================== */
 
+/* Inline SVG icons from _includes/icon.html (they replace the Font Awesome and
+   Academicons fonts). Every icon gets the same 1.25em-wide box, like Font
+   Awesome's fixed-width icons, so the labels next to them line up. */
 .icon {
   display: inline-block;
+  width: 1.25em;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
   fill: currentColor;
-  width: 1em;
-  height: 1.1em;
-  line-height: 1;
-  position: relative;
-  top: -0.1em;
-  vertical-align: middle;
 }
 
-/* Adjust this setting to control the space between an icon and text in the sidebar */
+.icon--3x {
+  font-size: 3em;
+}
+
+.icon--spin {
+  animation: icon-spin 2s linear infinite;
+}
+
+@keyframes icon-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Adjust this setting to control the space between an icon and text in the sidebar.
+   (Margin only: padding would shrink the SVG inside its fixed-width box.) */
 .icon-pad-right {
-  padding-right: 0.5em;
   margin-right: 0.5em;
 }
 
 /* social icons*/
 
 .social-icons {
-  .fa {
-    color: #000;
-  }
-
-  .fa-bluesky,
-  .fa-bluesky-square {
+  .icon--bluesky,
+  .icon--bluesky-square {
     color: $bluesky-color;
   }
 
-  .fa-behance,
-  .fa-behance-square {
+  .icon--behance,
+  .icon--behance-square {
     color: $behance-color;
   }
 
-  .fa-dribbble {
+  .icon--dribbble {
     color: $dribbble-color;
   }
 
-  .fa-facebook,
-  .fa-facebook-square {
+  .icon--facebook,
+  .icon--facebook-f {
     color: $facebook-color;
   }
 
-  .fa-flickr {
+  .icon--flickr {
     color: $flickr-color;
   }
 
-  .fa-foursquare {
+  .icon--foursquare {
     color: $foursquare-color;
   }
 
-  .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
+  .icon--github,
+  .icon--github-alt,
+  .icon--github-square {
     color: $github-color;
   }
 
-  .fa-google-plus,
-  .fa-google-plus-square {
+  .icon--google-plus-g,
+  .icon--google-plus-square {
     color: $google-plus-color;
   }
 
-  .fa-instagram {
+  .icon--instagram {
     color: $instagram-color;
   }
 
-  .fa-kaggle,
-  .fa-kaggle-square {
+  .icon--kaggle,
+  .icon--kaggle-square {
     color: $kaggle-color;
   }
 
-  .fa-lastfm,
-  .fa-lastfm-square {
+  .icon--lastfm,
+  .icon--lastfm-square {
     color: $lastfm-color;
   }
 
-  .fa-linkedin,
-  .fa-linkedin-square {
+  .icon--linkedin,
+  .icon--linkedin-square {
     color: $linkedin-color;
   }
 
-  .fa-mastodon,
-  .fa-mastodon-square {
+  .icon--mastodon,
+  .icon--mastodon-square {
     color: $mastodon-color;
   }
 
-  .ai-orcid,
-  .ai-orcid-square {
+  .icon--orcid,
+  .icon--orcid-square {
     color: $orcid-color;
   }
 
-  .fa-pinterest,
-  .fa-pinterest-p,
-  .fa-pinterest-square {
+  .icon--pinterest,
+  .icon--pinterest-p,
+  .icon--pinterest-square {
     color: $pinterest-color;
   }
 
-  .fa-rss,
-  .fa-rss-square {
+  .icon--rss,
+  .icon--square-rss {
     color: $rss-color;
   }
 
-  .fa-soundcloud {
+  .icon--soundcloud {
     color: $soundcloud-color;
   }
 
-  .fa-stack-exchange,
-  .fa-stack-overflow {
+  .icon--stack-exchange,
+  .icon--stack-overflow {
     color: $stackoverflow-color;
   }
 
-  .fa-tumblr,
-  .fa-tumblr-square {
+  .icon--tumblr,
+  .icon--tumblr-square {
     color: $tumblr-color;
   }
 
-  .fa-twitter,
-  .fa-twitter-square {
+  .icon--twitter,
+  .icon--x-twitter {
     color: $twitter-color;
   }
 
-  .fa-vimeo,
-  .fa-vimeo-square {
+  .icon--vimeo,
+  .icon--vimeo-square {
     color: $vimeo-color;
   }
 
-  .fa-vine {
+  .icon--vine {
     color: $vine-color;
   }
 
-  .fa-youtube,
-  .fa-youtube-square,
-  .fa-youtube-play {
+  .icon--youtube,
+  .icon--youtube-square,
+  .icon--youtube-play {
     color: $youtube-color;
   }
 
-  .fa-xing,
-  .fa-xing-square {
+  .icon--xing,
+  .icon--xing-square {
     color: $xing-color;
   }
 }

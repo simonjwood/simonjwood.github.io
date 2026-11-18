@@ -5,6 +5,10 @@
 #main {
   @include container;
   @include clearfix;
+  /* Fill the space above the footer (body is a flex column, see _base.scss).
+     width: 100% stops the auto side margins from shrinking it to its content. */
+  flex: 1 0 auto;
+  width: 100%;
   margin-top: 2em;
   padding-left: 1em;
   padding-right: 1em;

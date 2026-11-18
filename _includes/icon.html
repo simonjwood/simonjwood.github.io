@@ -1,0 +1,8 @@
+{%- comment -%}
+  Inline SVG icon, replacing the Font Awesome and Academicons web fonts.
+  Usage: {% include icon.html name="envelope" class="icon-pad-right" %}
+  `name` is a file in _includes/icons/ (see the README there for adding icons).
+{%- endcomment -%}
+{%- capture icon_svg -%}{% include icons/{{ include.name }}.svg %}{%- endcapture -%}
+{%- capture icon_attrs -%}<svg class="icon icon--{{ include.name }}{% if include.class %} {{ include.class }}{% endif %}" aria-hidden="true" focusable="false" {% endcapture -%}
+{{ icon_svg | strip | replace_first: '<svg ', icon_attrs }}

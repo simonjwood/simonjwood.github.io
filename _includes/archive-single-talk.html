@@ -28,18 +28,18 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink">{% include icon.html name="link" %}<span class="sr-only">Permalink</span></a>
       {% else %}
        {{ title }}
       {% endif %}
     </h2>
 <!--    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta">{% include icon.html name="clock" %} {% include read-time.html %}</p>
     {% endif %} -->
-    {% if post.date %}<i class="fa fa-clock-o" aria-hidden="true"></i>{{ post.date | date: '%B, %Y' }},{% endif %}
+    {% if post.date %}{% include icon.html name="clock" %}{{ post.date | date: '%B, %Y' }},{% endif %}
     {% if post.venue %}<!--{{post.type}},--> {{ post.venue }}<br />{{post.location}} {% endif %}
-    {% if post.slidesurl %}{% if post.slidesurl contains "://" %}{% assign slides = post.slidesurl %}{% else %}{% assign slides = post.slidesurl | prepend: base_path %}{% endif %}<br /><a href="{{ slides }}"><i class="fa fa-chalkboard-user" aria-hidden="true"></i> Slides</a>{% endif %}
-    {% if post.recordingurl %}{% if post.slidesurl %} | {% else %}<br />{% endif %}<a href="{{ post.recordingurl }}"><i class="fa fa-video-camera" aria-hidden="true"></i> Recording</a>{% endif %}
+    {% if post.slidesurl %}{% if post.slidesurl contains "://" %}{% assign slides = post.slidesurl %}{% else %}{% assign slides = post.slidesurl | prepend: base_path %}{% endif %}<br /><a href="{{ slides }}">{% include icon.html name="chalkboard-user" %} Slides</a>{% endif %}
+    {% if post.recordingurl %}{% if post.slidesurl %} | {% else %}<br />{% endif %}<a href="{{ post.recordingurl }}">{% include icon.html name="video" %} Recording</a>{% endif %}
     <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}-->
      </li>
   </article>

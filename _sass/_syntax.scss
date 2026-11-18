@@ -18,8 +18,8 @@ div.highlighter-rouge, figure.highlight {
     right: 0;
     padding: 0.5em;
     background-color: $lighter-gray;
-    content: "\f121";
-    font-family: "Font Awesome 6 Free" !important;
+    content: "</>";
+    font-family: $monospace;
     font-size: $type-size-6;
     line-height: 1;
     text-transform: none;

@@ -1,16 +1,14 @@
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
-html {
-  /* sticky footer fix */
-  position: relative;
-  min-height: 100%;
-}
-
 body {
+  /* Sticky footer: lay the page out as a column at least as tall as the window,
+     and let #main grow to push the footer to the bottom (no JavaScript needed). */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   padding: $masthead-height 0 0;
-  padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
