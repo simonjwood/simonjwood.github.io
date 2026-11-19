@@ -1,5 +1,5 @@
 ---
-title: "The rationality of N=1 minimal models through symmetric polynomials"
+title: 'The rationality of $$\mathcal{N}=1$$ minimal models through symmetric polynomials'
 collection: talks
 type: "Talk"
 permalink: /talks/2016-banff

@@ -7,9 +7,8 @@ date: 2012-01-02
 venue: 'Journal of Physics A'
 preprinturl: 'https://arxiv.org/abs/1201.0419'
 paperurl: 'https://doi.org/10.1088/1751-8113/46/44/445203'
-citation: 'A. Tsuchiya and S. Wood, J. Phys. A, 46 (2013) 445203'
+citation: 'A. Tsuchiya and S. Wood, J. Phys. A 46, 445203 (2013)'
 summary: 'Makes the Nahm–Gaberdiel–Kausch algorithm for computing fusion rigorous, giving a systematic method that works when representations are not completely reducible. Uses it to prove that the representation category of the $$\mathcal{W}_p$$ triplet algebras is rigid and to prove the conjectured fusion formulae for all simple and projective modules.'
-authors: 'A. Tsuchiya and S. Wood'
 selected: true
 selected_order: 4
 selected_note: 'Proves that the tensor category of modules over the $$\mathcal{W}_p$$ triplet algebra is rigid and computes direct sum decompositions of all tensor products among all simple and all projective modules.'

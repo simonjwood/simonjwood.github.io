@@ -1,5 +1,5 @@
 ---
-title: 'The classification of simple (semi)relaxed admissible affine $$\mathfrak{sl}(3)$$ modules and their modular properties at level $$−\frac{3}{2}$$'
+title: 'The classification of simple (semi)relaxed admissible affine $$\mathfrak{sl}(3)$$ modules and their modular properties at level $$-\frac{3}{2}$$'
 collection: talks
 type: "Conference"
 permalink: /talks/2022-dubrovnik

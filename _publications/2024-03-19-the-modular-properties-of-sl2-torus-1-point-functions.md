@@ -2,8 +2,8 @@
 title: 'The modular properties of $$\mathfrak{sl}(2)$$ torus $$1$$-point functions'
 collection: publications
 category: manuscripts
-permalink: /publication/2024-04-19-the-modula-properties-of-sl2-torus-1-point-functions
-date: 2024-04-19
+permalink: /publication/2024-03-19-the-modular-properties-of-sl2-torus-1-point-functions
+date: 2024-03-19
 venue: 'Transactions of the American Mathematical Society'
 preprinturl: 'https://arxiv.org/abs/2403.13182'
 paperurl: 'https://doi.org/10.1090/tran/9722'

@@ -7,7 +7,7 @@ date: 2014-08-19
 venue: 'Letters in Mathematical Physics'
 preprinturl: 'https://arxiv.org/abs/1408.4185'
 paperurl: 'https://doi.org/10.1007/s11005-014-0740-z'
-citation: 'D. Ridout, and S. Wood, Lett. Math. Phys. 105, 279–307, (2015)'
+citation: 'D. Ridout and S. Wood, Lett. Math. Phys. 105, 279–307, (2015)'
 summary: 'Analyses the $$c=2$$ bosonic ghost system, a building block of many free field realisations, as a logarithmic conformal field theory using the standard module formalism. Derives the modular transformations of characters, non-negative integer Verlinde coefficients and infinitely many modular invariant partition functions, with explicit fusion computations confirming that the theory is logarithmic.'
 coauthors: 'D. Ridout'
 abstract: |-

@@ -7,7 +7,7 @@ date: 2013-05-13
 venue: 'Letters in Mathematical Physics'
 preprinturl: 'https://arxiv.org/abs/1305.2665'
 paperurl: 'https://doi.org/10.1007/s11005-014-0680-7'
-citation: 'T. Creutzig, D. Ridout, and S. Wood, Lett. Math. Phys. 104, 553–583 (2014)'
+citation: 'T. Creutzig, D. Ridout and S. Wood, Lett. Math. Phys. 104, 553–583 (2014)'
 summary: 'Realises the singlet and triplet algebras of the logarithmic $$(1,p)$$-models as cosets inside lattice vertex algebras, along the way constructing vertex algebras that, for small $$p$$, are quotients of Feigin–Semikhatov W-algebras. Explicit character decompositions are worked out for $$p=2$$ and $$p=3$$.'
 coauthors: 'T. Creutzig and D. Ridout'
 abstract: |-

@@ -3,7 +3,7 @@ title: "The Verlinde formula in logarithmic CFT"
 collection: publications
 category: proceedings
 permalink: /publication/2014-09-02-the-verlinde-formula-in-logarithmic-cft
-date: 2014-09-17
+date: 2014-09-02
 venue: 'Proceedings for the 30th ICGTMP (Ghent, 2014)'
 preprinturl: 'https://arxiv.org/abs/1409.0670'
 paperurl: 'https://doi.org/10.1088/1742-6596/597/1/012065'
